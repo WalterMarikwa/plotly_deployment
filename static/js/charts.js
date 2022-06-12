@@ -72,7 +72,7 @@ function buildCharts(sample) {
 
     var yticks = otuIds
       .slice(0, 10)
-      .map((x) => "OTS " + x)
+      .map((x) => "OTU " + x)
       .reverse();
     var xticks = sampleValues.slice(0, 10).reverse();
     var labels = otuLabels.slice(0, 10).reverse();
