@@ -1,0 +1,19 @@
+.jumbotron{
+    position:relative;
+}
+.jumbotron{
+    content: ' ';
+    text-align: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+.jumbo-content{
+    color: white;
+    opacity: 1;
+}
+
+#sample-metadata{
+    font-family:'consolas';
+    font-size: 20px
+}
