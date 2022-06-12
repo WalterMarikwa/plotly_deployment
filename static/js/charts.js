@@ -216,28 +216,3 @@ function bubbleColor(sampleLabel) {
       return "grey";
   }
 }
-
-// existing phylum
-//   bubbleColors = {"Bacteroidetes",  "Firmicutes", "Bacteria", "Proteobacteria", "Actinobacteria", "Cyanobacteria", "Synergistetes", "Fusobacteria", "Acidobacteria", "Euryarchaeota", "Spirochaetes", "SR1", "Deinococcus-Thermus", "Verrucomicrobia", "Planctomycetes"]
-
-// temporary function to get the 1st or second name classification across all the samples.
-// function getBacteriaNames(){
-//   d3.json("samples.json").then((data) => {
-//     let samplesArray = data.samples;
-//     var types=[];
-//     samplesArray.map((sample)=>{
-//       let otuLabels = sample.otu_labels;
-//       otuLabels.forEach(function(x){
-//          let classes = x.split(";");
-//          if (classes.length==1) {
-//            i=0
-//          }
-//          else {i=1}
-//          if (!types.includes(classes[i])){
-//            types.push(classes[i])
-//          }
-//       });
-//     });
-//      console.log(types);
-//   })
-// };
